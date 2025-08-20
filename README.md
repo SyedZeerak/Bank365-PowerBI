@@ -231,7 +231,7 @@ Wrapped an end‑to‑end project for Analytix Camp PowerBI Competition.
 </p>
 
 <p>
-  <a href="mailto:clashzeerak@example.com">youremail@example.com</a> · Issues welcome via <a href="https://github.com/YOUR-GH-USER/YOUR-REPO/issues">GitHub Issues</a>
+  <a href="mailto:clashzeerak@example.com">clashzeerak@example.com</a> · Issues welcome via <a href="https://github.com/SyedZeerakR/Bank465-PowerBI/issues">GitHub Issues</a>
 </p>
 
 ---
