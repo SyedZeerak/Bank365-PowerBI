@@ -1,15 +1,12 @@
-# <div align="center">Power BI – Transaction Analytics Dashboard</div>
+# <div align="center">Power BI – Bank Transaction Analytics Dashboard</div>
 
 <p align="center">
   <img src="images/preview.gif" alt="Power BI Dashboard Preview" width="880">
 </p>
 
 <p align="center">
-  <a href="https://app.powerbi.com/view?r=YOUR_PUBLISHED_LINK" target="_blank" style="text-decoration:none;">
-    <img alt="Open Live Report" src="https://img.shields.io/badge/Open%20Live%20Report-FFD700?logo=powerbi&logoColor=white&labelColor=1a1a1a">
-  </a>
   &nbsp;
-  <a href="pbix/Transaction_Analytics.pbix" target="_blank" style="text-decoration:none;">
+  <a href="Bank365.pbix" target="_blank" style="text-decoration:none;">
     <img alt="Download PBIX" src="https://img.shields.io/badge/Download-.pbix-1a73e8?logo=microsoftpowerpoint&logoColor=white&labelColor=1a1a1a">
   </a>
   &nbsp;
@@ -22,10 +19,9 @@
 
 ## ✨ What this repo contains
 
-An end‑to‑end Power BI project (built for the **Analytix Camp PowerBI Competition**) that turns raw card‑transaction data into a concise executive story: trends, customer behavior, merchant performance, churn/retention, geography, fraud and chip success.
+An end‑to‑end Power BI project that turns raw card‑transaction data into a concise executive story: trends, customer behavior, merchant performance, churn/retention, geography, fraud and chip success.
 
-* **Power BI file:** `pbix/Transaction_Analytics.pbix`
-* **Data sample (optional):** `data/*.csv`
+* **Power BI file:** `Bank365.pbix`
 * **Screens & assets:** `images/*`
 * **Documentation:** this interactive README with DAX and modeling notes
 
@@ -129,11 +125,10 @@ DIVIDE ( COUNTROWS ( ChurnedUsers ), DISTINCTCOUNT ( Users[UserID] ) )
 <details>
 <summary><b>Example KPI cards</b> (static illustration)</summary>
 
-* Total Txn Value — **\$XX.XM**
-* Fraud Rate — **X.XX%**
-* Chip Success — **XX.X%**
-* CLV — **\$XXX.XX**
-* Churn Rate — **X.X%**
+* Total Txn Value — **\$5.78M**
+* Fraud Rate — **0.28%%**
+* Chip Success — **98.38%**
+* CLV — **\$8.67K**
 
 </details>
 
@@ -149,7 +144,7 @@ DIVIDE ( COUNTROWS ( ChurnedUsers ), DISTINCTCOUNT ( Users[UserID] ) )
 
 ## 🧪 Reproducibility
 
-1. **Open** `pbix/Transaction_Analytics.pbix` in Power BI Desktop (2024+).
+1. **Open** `TBank365.pbix` in Power BI Desktop (2024+).
 2. (Optional) **Swap in your data** by mapping to the same columns.
 3. **Refresh** to apply Power Query steps and relationships.
 4. Explore **bookmarks, drillthrough,** and **tooltip** interactions.
@@ -160,15 +155,8 @@ DIVIDE ( COUNTROWS ( ChurnedUsers ), DISTINCTCOUNT ( Users[UserID] ) )
 
 ```
 .
-├── pbix/
-│   └── Transaction_Analytics.pbix
-├── data/
-│   ├── Transactions.csv
-│   ├── Users.csv
-│   ├── Cards.csv
-│   └── Merchants.csv
+├── Bank365.pbix
 ├── images/
-│   ├── preview.gif
 │   └── data_model.png
 └── README.md  ← you are here
 ```
@@ -219,8 +207,6 @@ Wrapped an end‑to‑end project for Analytix Camp PowerBI Competition.
 ---
 
 ## 🤝 Acknowledgments
-
-* **Analytix Camp PowerBI Competition** for the challenge & rubric.
 * Power BI community for patterns on bookmarks, drillthrough, and tooltip design.
 
 ---
@@ -229,7 +215,7 @@ Wrapped an end‑to‑end project for Analytix Camp PowerBI Competition.
 
 <p id="-connect">
   <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" title="LinkedIn" style="display:inline-flex;align-items:center;padding:10px 14px;border-radius:10px;background:#0a66c2;color:#fff;text-decoration:none;margin-right:8px;">
+  <a href="https://www.linkedin.com/in/Syed-Wajdan-Zeerak" target="_blank" title="LinkedIn" style="display:inline-flex;align-items:center;padding:10px 14px;border-radius:10px;background:#0a66c2;color:#fff;text-decoration:none;margin-right:8px;">
     <!-- LinkedIn SVG -->
     <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style="margin-right:8px;"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4zM8.5 8h3.8v2.2h.1c.53-1 1.84-2.2 3.8-2.2 4.06 0 4.8 2.67 4.8 6.14V24h-4v-7.2c0-1.72-.03-3.94-2.4-3.94-2.4 0-2.77 1.87-2.77 3.8V24h-4z"/></svg>
     <span>Connect on LinkedIn</span>
@@ -237,7 +223,7 @@ Wrapped an end‑to‑end project for Analytix Camp PowerBI Competition.
 
   <!-- Kaggle -->
 
-  <a href="https://www.kaggle.com/YOUR-KAGGLE" target="_blank" title="Kaggle" style="display:inline-flex;align-items:center;padding:10px 14px;border-radius:10px;background:#20beff;color:#0b263b;text-decoration:none;">
+  <a href="https://www.kaggle.com/zincly" target="_blank" title="Kaggle" style="display:inline-flex;align-items:center;padding:10px 14px;border-radius:10px;background:#20beff;color:#0b263b;text-decoration:none;">
     <!-- Kaggle SVG -->
     <svg width="18" height="18" viewBox="0 0 24 24" fill="#0b263b" style="margin-right:8px;"><path d="M4 3h3v7.18l6.59-6.59L15 5l-5 5 5 5-1.41 1.41L7 12.82V21H4z"/></svg>
     <span>Explore my Kaggle</span>
@@ -245,7 +231,7 @@ Wrapped an end‑to‑end project for Analytix Camp PowerBI Competition.
 </p>
 
 <p>
-  <a href="mailto:youremail@example.com">youremail@example.com</a> · Issues welcome via <a href="https://github.com/YOUR-GH-USER/YOUR-REPO/issues">GitHub Issues</a>
+  <a href="mailto:clashzeerak@example.com">youremail@example.com</a> · Issues welcome via <a href="https://github.com/YOUR-GH-USER/YOUR-REPO/issues">GitHub Issues</a>
 </p>
 
 ---
