@@ -1,7 +1,7 @@
 # <div align="center">Power BI – Bank Transaction Analytics Dashboard</div>
 
 <p align="center">
-  <img src="images/preview.gif" alt="Power BI Dashboard Preview" width="880">
+  <img src="preview.png" alt="Power BI Dashboard Preview" width="880">
 </p>
 
 <p align="center">
@@ -22,7 +22,6 @@
 An end‑to‑end Power BI project that turns raw card‑transaction data into a concise executive story: trends, customer behavior, merchant performance, churn/retention, geography, fraud and chip success.
 
 * **Power BI file:** `Bank365.pbix`
-* **Screens & assets:** `images/*`
 * **Documentation:** this interactive README with DAX and modeling notes
 
 ---
@@ -50,7 +49,7 @@ An end‑to‑end Power BI project that turns raw card‑transaction data into a
 * **Fact:** `Transactions`
 * **Dimensions:** `Users`, `Cards`, `Merchants`
 * One‑to‑many relationships from dimensions to fact for performant, filter‑direction‑aware reporting.
-* See: `images/data_model.png`
+* See: `data_model.png`
 
 </details>
 
@@ -240,19 +239,6 @@ Wrapped an end‑to‑end project for Analytix Camp PowerBI Competition.
 
 `#PowerBI` `#DAX` `#DataModeling` `#StarSchema` `#BusinessIntelligence` `#CustomerAnalytics` `#Churn` `#CLV` `#FraudDetection` `#DashboardDesign`
 
----
 
-### ✅ How to use this README
-
-* Replace placeholders:
-
-  * `YOUR_PUBLISHED_LINK` → your Power BI publish‑to‑web link (if allowed)
-  * `YOUR-LINKEDIN` → your LinkedIn handle
-  * `YOUR-KAGGLE` → your Kaggle handle
-  * `YOUR-GH-USER/YOUR-REPO` → your GitHub path
-  * Email and file names as needed
-* Drop screenshots/GIFs into `images/` and update paths.
-
----
 
 <p align="center"><em>Power BI turns data into decisions. If you ship something with this repo, tag me — I’d love to see it!</em> 🚀</p>
